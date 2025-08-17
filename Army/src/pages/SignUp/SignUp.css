@@ -1,0 +1,97 @@
+.register-container{
+    background-image: url("../../assets/c0c4e7b0-8b70-4f61-82e0-64f220610027.jpg");
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-form{
+    padding: 20px;
+    border: 2px solid rgba(255,255,255,0.5);
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    width:300px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.8);
+}
+
+.form_header{
+    height:50px;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.form_header p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size:xx-large;
+}
+
+
+.login-form{
+    flex:1;
+    /* background-color: lightgreen; */
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.login-form input{
+    display: flex;
+    height: 50px;
+    width:280px;
+    border-radius: 30px;
+    border: none;
+    margin: 18px;
+    background: transparent;
+    color: white;
+    border: solid 1px;
+    border-color: white;
+    padding-left: 20px;
+    font-size: large;
+}
+
+
+.link{
+    color: chartreuse;
+}
+
+.submition{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.submition button{
+    padding: 20px;
+    border: none;
+    background-color:rgb(154, 153, 255);
+    border-radius: 30px;
+    width:200px;
+    font-weight: bolder;
+    font-size: larger;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.75s;
+}
+
+.submition button:hover{
+    background-color:lightblue;
+}
+
+.submition button:active{
+    background-color:blue;
+}
+
+.submition p{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.9px;
+}
